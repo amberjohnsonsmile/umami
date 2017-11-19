@@ -39,7 +39,8 @@ h1 {
 nav {
 	display: flex;
 	justify-content: flex-end;
-	background: rgba(227, 32, 121, 0.8);
+	background: #ed2079;
+	padding-right: 2rem;
 }
 
 nav a {
@@ -60,6 +61,18 @@ header {
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
+}
+
+.hero-title {
+	display: flex;
+	flex-flow: row wrap;
+	margin-bottom: 1rem;
+}
+
+.hero-title img {
+	margin-top: 3rem;
+	margin-right: 1rem;
+	height: 8rem;
 }
 
 h2 {
@@ -153,7 +166,7 @@ h4 {
 
 .about-one {
 	text-align: right;
-	margin: 0 2rem;
+	margin: 0 2rem 0 4rem;
 }
 
 .bubble-two {
@@ -205,4 +218,61 @@ h4 {
 
 .about-four {
 	margin-left: 3rem;
+}
+
+.livestream {
+	display: flex;
+	flex-flow: column wrap;
+	align-items: center;
+}
+
+button {
+	font-size: 2rem;
+	padding: 1rem 2rem;
+	margin-bottom: 6rem;
+	border-radius: 1rem;
+	background: black;
+}
+
+button a {
+	text-decoration: none;
+	color: white;
+}
+
+#stream {
+	width: 70%;
+	display: block;
+	margin: 3rem 0 3rem 0;
+	display: none;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    padding: 0 3rem;
+	background: #ed2079;
+}
+
+.footer-logo {
+	display: flex;
+	align-items: center;
+}
+
+h5 {
+	font-size: 2.5rem;
+	font-weight: 600;
+}
+
+footer img {
+	height: 50px;
+	width: 50px;
+	margin-right: 1rem;
+}
+
+figure img {
+    height: 50px;
+    width: 50px;
+    padding-left: 1rem;
 }
