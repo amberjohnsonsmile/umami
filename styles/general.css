@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900');
+
+body {
+	font-family: Montserrat;
+}
+
+.logo {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: absolute;
+	height: 20rem;
+	width: 20rem;
+	margin-top: -6rem;
+	margin-left: -4rem;
+	border-radius: 20rem;
+	transform: rotate(-30deg);
+	background: black;
+}
+
+h1 {
+	font-size: 3rem;
+	padding-top: 5rem;
+	padding-left: 1rem;
+}
+
+.first-half {
+	color: #ed2079;
+	padding-right: 1rem;
+	font-weight: 600;
+}
+
+.second-half {
+	color: white;
+	padding-left: 0;
+	font-weight: 300;
+}
+
+nav {
+	display: flex;
+	justify-content: flex-end;
+	background: rgba(227, 32, 121, 0.8);
+}
+
+nav a {
+	padding: 2rem 1.5rem;
+	font-size: 2rem;
+	text-decoration: none;
+	color: rgb(30, 30, 30);
+}
+
+header {
+	position: fixed;
+	width: 100vw;
+}
+
+.hero {
+	height: 120vh;
+	display: flex;
+	flex-flow: column wrap;
+	justify-content: center;
+	align-items: center;
+}
+
+h2 {
+	display: inline;
+	font-size: 10rem;
+}
+
+.first-half-main {
+	color: #ed2079;
+	font-weight: 700;
+}
+
+.second-half-main {
+	font-weight: 300;
+}
+
+.line {
+	display: flex;
+	align-items: center;
+}
+
+hr {
+	width: 30rem;
+	border: 1px solid rgb(30, 30, 30);
+	margin: 0;
+}
+
+h3 {
+	font-size: 2rem;
+	padding-left: 1rem;
+	color: rgb(30, 30, 30);
+}
+
+.motto {
+	padding: .5rem 0;
+}
+
+#first-motto {
+	margin-top: 4rem;
+}
+
+p {
+	display: inline;
+	font-size: 3rem;
+}
+
+.first-half-p {
+	color: rgb(30, 30, 30);
+}
+
+.second-half-p {
+	font-weight: 600;
+}
+
+h4 {
+	line-height: 2.5rem;
+	font-weight: 600;	
+	font-size: 2rem;
+}
+
+.bubble {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	padding: 3rem;
+}
+
+.about {
+	padding: 0 3rem 10rem 0;
+}
+
+.about h3 {
+	font-size: 4rem;
+	text-align: left;
+}
+
+.about p {
+	font-size: 2.5rem;
+	margin-bottom: 20rem;
+}
+
+.bubble-one {
+	float: left;
+	width: 18rem;
+	height: 18rem;
+	border-radius: 18rem;
+	background: #ed2079;
+	margin: 0 2rem 4rem 5rem;
+}
+
+.about-one {
+	text-align: right;
+	margin: 0 2rem;
+}
+
+.bubble-two {
+	float: right;
+	width: 20rem;
+	height: 20rem;
+	border-radius: 20rem;
+	background: #ed2079;
+	padding: 3rem;
+	margin: 0 5rem 3rem 3rem;
+}
+
+.bubble-two h4 {
+	padding: 2rem;
+}
+
+.about-two {
+	margin: 0 4rem;
+}
+
+.bubble-three {
+	float: left;
+	width: 22rem;
+	height: 22rem;
+	border-radius: 22rem;
+	background: #ed2079;
+	padding: 3rem;
+	margin: 0 2rem 4rem -3rem;
+}
+
+.bubble-three h4 {
+	padding: 2rem;
+}
+
+.about-three {
+	text-align: right;
+	margin: 0 1rem 0 2rem;
+}
+
+.bubble-four {
+	float: right;
+	width: 24rem;
+	height: 24rem;
+	border-radius: 24rem;
+	background: #ed2079;
+	padding: 4rem;
+	margin: 0 -2rem 3rem 2rem;
+}
+
+.about-four {
+	margin-left: 3rem;
+}
