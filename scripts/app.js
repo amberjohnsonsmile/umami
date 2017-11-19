@@ -8,6 +8,6 @@ window.addEventListener("scroll", function() {
 	}
 });
 
-document.querySelector("button").addEventListener("click", function() {
+document.querySelector(".livestream button").addEventListener("click", function() {
 	document.querySelector("#stream").style.display = "inherit";
 });
