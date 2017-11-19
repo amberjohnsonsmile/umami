@@ -47,7 +47,7 @@ nav a {
 	padding: 2rem 1.5rem;
 	font-size: 2rem;
 	text-decoration: none;
-	color: rgb(30, 30, 30);
+	color: black;
 }
 
 header {
@@ -56,13 +56,14 @@ header {
 }
 
 .hero {
-	height: 90vh;
+	height: 100vh;
 	display: flex;
 	flex-flow: column wrap;
 	justify-content: center;
 	align-items: center;
 	background: linear-gradient(0deg,rgba(255,200,200,0.6),rgba(255,200,200,0.6)), url("/assets/background.jpg") no-repeat center;
 	background-size: cover;
+	background-attachment: fixed;
 	margin-bottom: 10rem;
 }
 
@@ -100,14 +101,13 @@ h2 {
 
 hr {
 	width: 26rem;
-	border: 1px solid rgb(30, 30, 30);
+	border: 1px solid black;
 	margin: 0;
 	margin-left: 1rem;
 }
 
 h3 {
 	font-size: 2rem;
-	color: rgb(30, 30, 30);
 	padding-left: 1rem;
 }
 
@@ -129,7 +129,7 @@ p {
 }
 
 .first-half-p {
-	color: rgb(30, 30, 30);
+	color: black;
 }
 
 .second-half-p {
@@ -151,19 +151,20 @@ h4 {
 }
 
 .about {
-	padding: 0 3rem 10rem 0;
+	padding: 15rem 3rem 10rem 0;
 }
 
 .about h3 {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	font-weight: 600;
 	padding-bottom: 2rem;
 	padding-left: 0;
 }
 
 .about p {
-	font-size: 2rem;
+	font-size: 2.5rem;
 	margin-bottom: 20rem;
+	color: rgb(30, 30, 30);
 }
 
 .bubble-one {
@@ -192,6 +193,7 @@ h4 {
 
 .bubble-two h4 {
 	padding: 2rem;
+	font-size: 3rem;
 }
 
 .about-two {
@@ -210,6 +212,7 @@ h4 {
 
 .bubble-three h4 {
 	padding: 2rem;
+	font-size: 2rem;
 }
 
 .about-three {
@@ -217,9 +220,8 @@ h4 {
 	margin: 0 4rem 0 2rem;
 }
 
-.about-three h3:first-child {
-	font-size: 3rem;
-	padding-bottom: 0;
+.about-three h3 {
+	margin-top: 2rem;
 }
 
 .bubble-four {
@@ -230,6 +232,11 @@ h4 {
 	background: #ed2079;
 	padding: 4rem;
 	margin: 0 -2rem 3rem 2rem;
+}
+
+.bubble-four h4 {
+	font-size: 3rem;
+	line-height: 4rem;
 }
 
 .about-four {
