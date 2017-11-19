@@ -1,7 +1,9 @@
 window.addEventListener("scroll", function() {
-	if (document.querySelector(".logo .second-half").textContent != "umami's") {
-		document.querySelector(".logo .first-half").remove();
-		document.querySelector(".logo .second-half").textContent = "umami's";
+	if (document.querySelector(".logo .second-half").textContent != "umami") {
+		document.querySelector(".logo .first-half").textContent = "buy";
+		document.querySelector(".logo").style.flexDirection = "column";
+		document.querySelector(".logo .second-half").style.marginTop = "-5rem";
+		document.querySelector(".logo .second-half").textContent = "umami";
 		document.querySelector(".logo .second-half").style.fontWeight = 600;
 	}
 });
