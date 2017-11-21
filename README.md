@@ -2,7 +2,7 @@ umami
 
 simple | surprising | seaweed
 
-(./site-screenshot.png)
+![site screenshot](/site-screenshot.png)
 
 This code made up the website portion of the "Umami" entry into the Boulder Food+Tech Startup competition. Our "Umami" concept won the competetion. A little more on the idea below:
 
