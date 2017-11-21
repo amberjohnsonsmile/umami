@@ -1,4 +1,4 @@
-Umami
+umami
 
 simple | surprising | seaweed
 
